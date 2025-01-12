@@ -37,4 +37,4 @@ To authorize an EC2 instance to retrieve secrets from AWS Secrets Manager:
 
 ## 3. Using the secret name prod/cart-service/credentials, derive a sensible ARN as the specific resource for access
 
-- arn:aws:secretsmanager:<region>:<account-id>:secret:prod/cart-service/credentials
+- `arn:aws:secretsmanager:<region>:<account-id>:secret:prod/cart-service/credentials`
